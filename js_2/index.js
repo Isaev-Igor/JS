@@ -42,13 +42,8 @@
 // }
 
 
+var answer;
+do {
+    answer = prompt("укажи число больше 100", "")
+} while (answer < 100 && num);
 
-
-var answer = prompt("Укажи число больше 100", "");
-if (answer > 0) {
-    alert("1");
-} else if (answer < 0) {
-    alert("-1");
-} else {
-    alert("0");
-}
