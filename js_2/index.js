@@ -43,7 +43,8 @@
 
 
 var answer;
+
 do {
-    answer = prompt("укажи число больше 100", "")
-} while (answer < 100 && num);
+    answer = prompt("укажи число больше 100", "");
+} while (answer < 100);
 
