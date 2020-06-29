@@ -48,3 +48,7 @@ do {
     answer = prompt("укажи число больше 100", "");
 } while (answer < 100);
 
+// var n = 0;
+// n = prompt("?", "0")
+// console.log(n);
+// console.log(n<100)
