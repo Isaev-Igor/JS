@@ -23,11 +23,36 @@ function random(number) {
 
 var test = document.querySelectorAll('.test');
 for (var i = 0; i < test.length; i++) {
-    test[i].addEventListener('click', changeColor);
+    test[i].addEventListener('click', function() {
+        var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        window.style.backgroundColor = rndCol;
+    })
 }
 
 function changeColor() {
     var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
-    this.style.backgroundColor = rndCol;
+    window.style.backgroundColor = rndCol;
 }
 
+function doSomthing() {
+
+}
+
+doSomthing();
+
+var a = 3;
+var b = a;
+
+a = 6;
+
+var obj1 = {
+    prop: 34,
+
+}
+var obj2 = obj1;
+
+obj1 = {
+    propz: 'prop'
+}
+
+let dor = 'string';
